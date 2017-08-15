@@ -265,9 +265,6 @@ input[type=submit] {
     border: 0 none;
 }
 
-#connect {
-    font-size: 12px;
-}
 
 @media (max-width: 980px) {
     .main-section {
@@ -283,8 +280,28 @@ input[type=submit] {
     }
 
     .sidebar {
-      float: right;
+      
       width: 40%;
     }
-    
+
+}
+
+@media (max-width: 768px) {
+
+
+}
+
+@media (max-width: 640px) {
+  .main-section {
+        height: auto;
+        max-width: 640px;
+        /*width: 98%;*/
+    }
+
+  .sidebar {
+      max-width: 640px;
+      /*width: 98%;*/
+    }
+  
+  }
 }
