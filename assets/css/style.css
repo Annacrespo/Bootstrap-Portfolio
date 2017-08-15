@@ -223,6 +223,9 @@ h3,
     margin-top: 10px;
     margin-right: 25px;
 }
+.img-responsive {
+  width: 50%;
+}
 
 
 /* contact page */
@@ -268,25 +271,32 @@ input[type=submit] {
 
 @media (max-width: 980px) {
     .main-section {
-     /*   width: 75%;*/
         height: auto;
         width: 370px;
     }
 
     .auth-image {
         float: left;
-        width: 300px;
+        width: 500px;
         height: auto;
     }
+    .img-responsive {
+      max-width: 25%;
+    }
 
-    .sidebar {
-      
-      width: 40%;
+}
+
+
+@media screen and (max-width: 992px) {
+    .connectSide {
+        margin-left: 0px;
+        margin-bottom: 50px;
     }
 
 }
 
 @media (max-width: 768px) {
+
 
 
 }
@@ -302,6 +312,6 @@ input[type=submit] {
       max-width: 640px;
       /*width: 98%;*/
     }
-  
+
   }
 }
